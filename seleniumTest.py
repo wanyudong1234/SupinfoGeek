@@ -24,8 +24,8 @@ arr = questions.split('/')
 browser = webdriver.Firefox()
 browser.get('http://www.geekqanda.com')
 
-browser.find_element_by_id('qa-userid').send_keys('167354@supinfo.com')
-browser.find_element_by_id('qa-password').send_keys('wghd940317')
+browser.find_element_by_id('qa-userid').send_keys('xxx@xxx.com')
+browser.find_element_by_id('qa-password').send_keys('********')
 browser.find_element_by_id('qa-login').send_keys(Keys.ENTER)
 
 for item in arr:
